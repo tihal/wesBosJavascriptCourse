@@ -66,4 +66,29 @@ itemThree: 3000
 console.log(myFirstObject.itemOne); //logs Tyler Halstead
 
 // NULL vs. UNDEFINED
-// Undefined occurs when a variable has 
+// Undefined occurs when a variable has not been defined yet; null is an explicit definition.
+
+// BOOLEANS
+// Booleans return true/false values
+// Booleans are set via the =, >, <, operators
+// Boolean comparison can be done with =, ==, ===
+// == is almost always bad practice as it can quickly lead to bugs
+
+// === compares both value and type; == compares only the value
+
+if (10 === 10) {
+    console.log(`True!`);
+}
+// returns true
+
+if ("10" == 10) {
+    console.log(`True!`);
+}
+// returns true
+
+if ("10" === 10) {
+    console.log(`True!`)
+} else {
+    console.log(`False!`);
+}
+// returns false
